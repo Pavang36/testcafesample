@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Dec 21 18:49:07 IST 2022","Wed Dec 21 18:49:15 IST 2022","8046","","Getting Started","","Getting Started","My 2nd test","My 2nd test",""
+"failed","Fri Jan 06 19:17:28 IST 2023","Fri Jan 06 19:18:15 IST 2023","46266","","Getting Started","","Getting Started","My first test","My first test",""
+"failed","Fri Jan 06 19:22:03 IST 2023","Fri Jan 06 19:23:00 IST 2023","56922","","Getting mail Started","","Getting mail Started","My first test","My first test",""

@@ -1,0 +1,12 @@
+[
+    {
+    "username":"pgedela@miraclesoft.com",
+    "password":"Pavan143@@",
+    "expected result":"To view a conversation, click on it."
+    },
+    {
+        "username":"pgedela@miraclesoft.com",
+        "password":"Pavan143@",
+        "expectedresult":"Invalid Username or Password" 
+    }
+    ]

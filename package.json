@@ -1,0 +1,27 @@
+{
+  "name": "tcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hubble.js",
+  "scripts": {
+    "test": "testcafe",
+    "test":"cucumber-js --tags '@e2e'",
+    "skipJsErrors": true
+  },
+  "author": "Pavankumar",
+  "license": "ISC",
+  "jshintConfig": {
+    "esversion": 9,
+    "asi": true
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "generator": "^0.0.4",
+    "testcafe": "^2.2.0",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.10.0"
+  }
+}

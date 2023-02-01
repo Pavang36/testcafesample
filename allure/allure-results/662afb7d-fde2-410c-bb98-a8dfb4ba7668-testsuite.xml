@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671628738949' stop='1671628738999'>
+    <name>Getting Started</name>
+    <title>Getting Started</title>
+    <test-cases>
+        <test-case start='1671628738949' status='failed' stop='1671628761625'>
+            <name>My first test</name>
+            <title>My first test</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 108.0.0.0 / Windows 10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>The specified selector does not match any element in the DOM tree.
+                
+                   | Selector('a')
+                 > |   .withText('Explore')
+                
+                Browser: Chrome 108.0.0.0 / Windows 10
+                
+                    7 |    .page`https://www.youtube.com/`;
+                    8 |
+                    9 |test('My first test', async t => {
+                   10 |    await t
+                   11 |
+                 > 12 |    .hover(hovereg)
+                   13 |    .wait(3000)
+                   14 |})
+                   15 |
+                   16 |test
+                   17 |.page`https://devexpress.github.io/testcafe/example`
+                
+                   at &lt;anonymous> (C:\test\tcafe\sample1.js:12:6)
+                   at asyncGeneratorStep (C:\test\tcafe\sample1.js:1:37)
+                   at _next (C:\test\tcafe\sample1.js:1:37)
+                   at &lt;anonymous> (C:\test\tcafe\sample1.js:1:37)
+                   at &lt;anonymous> (C:\test\tcafe\sample1.js:1:37)
+                   at &lt;anonymous> (C:\test\tcafe\sample1.js:14:2)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

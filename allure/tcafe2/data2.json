@@ -1,0 +1,18 @@
+[
+    {
+        "username":"pgedela",
+        "password":"Pavan143@"
+        },
+{
+"department":"Executive Board",
+"Work Location":"Atlanta"
+},
+{
+    "department":"Marketing",
+    "Work Location":"Bentonville"
+    },
+    {
+        "department":"Operations",
+        "Work Location":"HQ(Novi)"
+        }
+]

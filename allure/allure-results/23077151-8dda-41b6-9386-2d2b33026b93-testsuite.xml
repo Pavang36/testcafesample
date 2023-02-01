@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673013123870' stop='1673013123881'>
+    <name>Getting mail Started</name>
+    <title>Getting mail Started</title>
+    <test-cases>
+        <test-case start='1673013123870' status='failed' stop='1673013180792'>
+            <name>My first test</name>
+            <title>My first test</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 108.0.0.0 / Windows 10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>The specified selector does not match a file input element.
+                
+                Browser: Chrome 108.0.0.0 / Windows 10
+                
+                   25 |    .navigateTo("https://mail.google.com/mail/u/0/#inbox")
+                   26 |    .debug()
+                   27 |    .click(compose)
+                   28 |    .skipJsErrors()
+                   29 |    .click(files)
+                 > 30 |    .setFilesToUpload(files, [
+                   31 |    'C:\Users\pgedela\Documents\file1.txt',
+                   32 |    ])
+                   33 |    .skipJsErrors(false)
+                   34 |    .wait(3000)
+                   35 |    })
+                
+                   at &lt;anonymous> (C:\test\tcafe\gmail.js:30:6)
+                   at asyncGeneratorStep (C:\test\tcafe\gmail.js:3:30)
+                   at _next (C:\test\tcafe\gmail.js:3:30)
+                   at &lt;anonymous> (C:\test\tcafe\gmail.js:3:30)
+                   at &lt;anonymous> (C:\test\tcafe\gmail.js:3:30)
+                   at &lt;anonymous> (C:\test\tcafe\gmail.js:35:6)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
