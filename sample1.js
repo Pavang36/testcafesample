@@ -8,7 +8,6 @@ fixture`Getting Started`
 
 test('My first test', async t => {
     await t
-
     .hover(hovereg)
     .wait(3000)
 })
@@ -17,7 +16,6 @@ test
 .page`https://devexpress.github.io/testcafe/example`
 ('My 2nd test', async t => {
     await t
-   
     .click(var1)
     .wait(3000)
     .click(var2)
